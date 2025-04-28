@@ -1,0 +1,18 @@
+[
+    {
+        "question": "Em que ano a FURIA foi fundada?",
+        "options": ["2015", "2017", "2019", "2013"],
+        "answer": "2017"
+    },
+    {
+        "question": "Qual país a FURIA fez seu primeiro bootcamp?",
+        "options": ["Estados Unidos", "Suécia", "Alemanha", "Brasil"],
+        "answer": "Estados Unidos"
+    },
+    {
+        "question": "Quem é conhecido como \"professor\" na FURIA",
+        "options": ["FalleN", "kscerato", "molodoy", "yuurih"],
+        "answer": "FalleN"
+    }
+]
+  
