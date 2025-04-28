@@ -18,6 +18,11 @@ Chatbot interativo para fãs da FURIA, desenvolvido como parte do Challenge #1 -
 
 ---
 
+## 🖥️ Link para acessar o projeto
+👉 [Clique aqui para acessar o chatbot](https://chatbot-furia-one.vercel.app)
+
+---
+
 ## 🛠️ Tecnologias utilizadas
 
 - [React](https://reactjs.org/) + [Vite](https://vitejs.dev/) (base do projeto)
