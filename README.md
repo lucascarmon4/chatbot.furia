@@ -1,54 +1,54 @@
-# React + TypeScript + Vite
+# 🐾 FURIA CS Chatbot
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Chatbot interativo para fãs da FURIA, desenvolvido como parte do Challenge #1 - Experiência Conversacional FURIA.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Funcionalidades
 
-## Expanding the ESLint configuration
+- Simulação de chat com a FURIA
+- Bot com delay de digitação proporcional ao tamanho da resposta
+- Respostas dinâmicas e aleatórias baseadas em categorias
+- Estatísticas individuais de jogadores (ex: "estatísticas do FalleN")
+- Scroll automático para última mensagem
+- Bot digitando animado com indicador visual
+- Limpeza do chat manualmente (limpa tela e histórico)
+- Histórico persistente via LocalStorage
+- Quiz interativo para testar conhecimento sobre a FURIA 
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+---
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+## 🛠️ Tecnologias utilizadas
+
+- [React](https://reactjs.org/) + [Vite](https://vitejs.dev/) (base do projeto)
+- [TypeScript](https://www.typescriptlang.org/) (tipagem estática)
+- [TailwindCSS](https://tailwindcss.com/) (estilização rápida e responsiva)
+- LocalStorage para persistência de dados
+- Arquivos `.json` para armazenamento de dados de respostas e quiz
+
+---
+
+## ⚙️ Como rodar localmente
+
+1. Clone o repositório:
+
+```bash
+git clone https://github.com/seu-usuario/seu-repositorio.git
+cd seu-repositorio
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+2. Instale as dependências e rode o projeto:
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
+```bash
+yarn
+yarn dev
 ```
+
+3. Acesse no navegador:
+
+```bash
+http://localhost:5173
+``` 
+
+## 📢 Observação
+Este projeto é apenas para fins educacionais e demonstrativos. Não possui afiliação oficial com a organização FURIA.
